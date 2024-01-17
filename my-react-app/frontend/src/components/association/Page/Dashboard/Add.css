@@ -1,0 +1,56 @@
+/* Add this CSS to your component or stylesheets */
+
+.small-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+  }
+  
+  /* Adjust the layout for buttons */
+  .button-container {
+    
+    justify-content: space-between;
+   
+  }
+  
+input[type="submit"],
+.muted-button {
+  background-color: cadetblue;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+  
+  

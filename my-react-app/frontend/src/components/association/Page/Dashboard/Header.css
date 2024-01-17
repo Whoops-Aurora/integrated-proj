@@ -1,0 +1,76 @@
+/* Add this CSS to your component or stylesheets */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white; /* Lighter body background color */
+    color: black; /* Text color for the body */
+  }
+  
+  header {
+    background-color:lightblue; /* Lighter blue for the header background color */
+    color: #fff; /* Text color for the header */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Header box shadow */
+  }
+  
+  
+
+  h1 {
+    font-size: 100px;
+    margin: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .round-button {
+    background-color:cadetblue; /* Lighter green for the button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 25px; /* Adjust the space as needed */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .round-button:hover {
+    background-color:lightseagreen; /* Darker green on button hover */
+  }
+  
+  /* Example of a card-style layout */
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* Example of styling for a form */
+  .form-container {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  /* Example of a responsive layout for smaller screens */
+  @media (max-width: 768px) {
+    header {
+      padding: 15px;
+    }
+  
+    .container {
+      width: 90%;
+    }
+  
+    .card {
+      margin: 10px;
+    }
+  }
+  

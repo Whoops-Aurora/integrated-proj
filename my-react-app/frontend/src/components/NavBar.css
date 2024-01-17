@@ -1,0 +1,111 @@
+  
+  /* Styles for the fixed navbar */
+  .scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow when fixed */
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+  
+.navbar {
+    display: flex;
+    background-color: #008080;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .logo-container {
+    margin-right: 10px; /* Adjust padding as needed */
+    /* padding: 0px 0px; */
+    /* padding-left: px; */
+  }
+  .logo-container img{
+    max-height: 85px;
+    max-width: 1300px;
+  }
+  
+  .ulnav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .home{
+    color: white;
+    text-decoration: none;
+    max-width: 40px;
+    /* background-color: red; */
+    background-color:  #3C3F58;
+    padding: 12px 17px;
+    border-radius: 10px;
+    font-weight: 850;
+    /* margin-right: 35px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    border-radius: 13px;
+  }
+  .home:hover{
+    box-shadow: 3px 8px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: #333;
+    border-radius: 20px;
+    /* text-transform: uppercase; */
+  }
+  button{
+    color: white;
+    text-decoration: none;
+    /* max-width: 40px; */
+    /* background-color: red; */
+    background-color:  #3C3F58;
+    padding: 10px 17px;
+    border-radius: 10px;
+    font-weight: 850;
+    margin-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    border-radius: 13px;
+    margin-left: 10px;
+  }
+  button:hover{
+    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: #333;
+    border-radius: 20px;
+    /* text-transform: uppercase; */
+  }
+  @media only screen and (max-width: 768px) {
+    .logo-container img{
+      max-height: 69px;
+      max-width: 1000px;
+    }
+    .ulnav {
+      gap: 10px; /* Adjusted gap for smaller screens */
+      flex-direction: column;
+    }
+  
+    .home{
+      padding: 3px 3px; /* Adjusted padding for smaller screens */
+      font-size: 12px;
+    }
+    button{
+      padding: 5px 5px;
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .navbar {
+      flex-direction: row; /* Change to a column layout for mobile screens */
+      align-items: flex-start; /* Align items to the start for better mobile display */
+    }
+  
+    .ulnav {
+      margin-right: 0; /* Remove right margin for mobile screens */
+    }
+  
+    .home {
+      margin-top: 10px; /* Add top margin for better spacing on mobile screens */
+      margin-right: 15px;
+      padding: 6px 8px;
+    }
+  }

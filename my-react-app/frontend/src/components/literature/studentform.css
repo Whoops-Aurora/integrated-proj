@@ -1,0 +1,70 @@
+/* Add your existing CSS styles here */
+
+/* Additional styles for the student form 
+.container {
+    max-width: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+   Add your existing CSS styles here */
+
+/* studentform.css */
+/* Add your styles here */
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
